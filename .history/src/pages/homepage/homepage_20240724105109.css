@@ -1,0 +1,100 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+    .top {
+        display: flex;
+        flex: 8;
+        gap: 100px;
+        
+        .left {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            text-align: center;
+
+            h1 {
+                font-size: 128px;
+                background: linear-gradient(to right, #217bfe, #e55571);
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+            }
+
+            h3 {
+                font-weight: 400;
+                max-width: 70%;
+            }
+
+            a {
+                padding: 15px 25px;
+                background: #217bfe;
+                color: white;
+                border-radius: 20px;
+                font-size: 14px;
+                margin-top: 20px;
+            }
+
+        }
+
+        .right {
+            display: flex;
+            flex: 1;
+           
+            justify-content: center;
+            align-items: center;
+
+            .imageContainer {
+                display: flex;
+                width: 70%;
+                height: 70%;
+                align-items: center;
+                justify-content: center;
+                background: rgb(61, 7, 61);
+                border-radius: 40px;
+                position: relative;
+                
+
+                .botimg {
+                    height: 70%;
+                    width: 70%;
+                    object-fit: cover;
+                }
+
+                .robotIp {
+                    position: absolute;
+                    bottom: -30px;
+                    right: -50px;
+                    display: flex;
+                    background-color: purple;
+                    padding: 20px 20px;
+                    border-radius: 10px;
+                    font-size: 16px;
+                    align-items: center;
+                    gap: 5px;
+
+                    .botimgSm {
+                        height: 25px;
+                        width: 25px;
+                        object-fit: cover;
+                    }
+                }
+
+
+            }
+
+            
+        }
+
+        
+    }
+    .bottom {
+        display: flex;
+        flex: 1;
+        background-color: pink;
+    }
+}

@@ -1,0 +1,36 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+    .top {
+        display: flex;
+        flex: 8;
+        
+        .left {
+            display: flex;
+            flex: 1;
+            background-color: purple;
+
+        }
+
+        .right {
+            display: flex;
+            flex: 1;
+            background-color: yellow;
+
+            .botimg {
+                height: 100px;
+                width: 100px;
+                object-fit: cover;
+            }
+        }
+
+        
+    }
+    .bottom {
+        display: flex;
+        flex: 1;
+        background-color: pink;
+    }
+}

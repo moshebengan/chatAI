@@ -1,0 +1,21 @@
+.dashboard {
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+
+  .texts {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 50px;
+  }
+
+  .formContainer {
+    margin-top: auto;
+  }
+}
